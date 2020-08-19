@@ -1,0 +1,184 @@
+.reviews {
+    padding-bottom: 50px;
+}
+.col-md-6{
+    // border: 1px solid black;
+}
+
+.first{
+    margin: 0 auto !important;
+    text-align: center;
+    padding: 100px;
+    background-color:$bgc-color;
+    i{
+        font-size: 90px;
+        color: #247ffb;
+    }
+    h2{
+        padding-top: 40px;
+        font-size: 50px;
+        letter-spacing: 3px;
+         color: #13287e;
+    }
+}
+
+.second{
+    // background-image: url(/dist/img/grass.jpg);
+    background-image: url(/dist/img/grass.jpg);
+    // background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.third{
+    background-image: url(/dist/img/costumer1.jpg);
+    background-size: cover;
+    min-height: 900px;
+}
+
+.forth{
+      h2 {
+          padding-top: 90px;
+          padding-left: 50px;
+          font-size: 60px;
+          letter-spacing: 3px;
+          color: #13287e;
+      }
+     .glider{
+        //  max-width: 400px !important;
+     }
+
+      .reviews-carusel{
+          display: block;
+          margin: 0 auto !important;
+        //   text-align: center;
+        // border: 1px solid black;
+        // max-width: 650px;
+        padding: 20px;
+        img{
+            width: 120px;
+            height: 120px;
+            // height: ;
+            border-radius: 50%;
+        }
+        p{
+            padding-top: 20px;
+            font-size: 19px;
+        }
+        i{
+            color: #13287e;
+        }
+        b{
+            font-size: 10px;
+            letter-spacing: 1px;
+        }
+      }
+}
+
+.fifth{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+
+    .fifth-h2{
+        font-size: 60px;
+        letter-spacing: 3px;
+        color: #13287e;
+    }
+
+    .accordion{
+        padding: 100px;
+        // border: none !important;
+    }
+}
+
+.sixth{
+    background-image: url(/dist/img/woman.jpg);
+    background-size: cover;
+    min-height: 900px;
+}
+
+.seventh{
+    background-image: url(/dist/img/father.jpg);
+    background-size: cover !important;
+    min-height: 900px !important;
+}
+
+.eight{
+    margin: 0 auto !important;
+    padding: 150px;
+    text-align: center;
+    h2{   
+        font-size: 60px;
+        padding-bottom: 40px;
+         color: #13287e;
+    }
+    p{
+        font-size: 20px;
+        letter-spacing: 2px;
+         color: #13287e;
+    }
+    b{
+        color: #13287e;
+
+    }
+    img{
+        padding-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1450px) {
+.sixth {
+    background-image: url(/dist/img/woman.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    .third{
+        display: none;
+    }
+    .forth{
+        text-align: center;
+    }
+
+    .sixth{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+  .first{
+    h2{
+        font-size: 23px !important;
+    }
+  }
+
+  .forth{
+      h2{
+          font-size: 23px !important;
+      }
+  }
+
+  .fifth{
+      h2{
+          font-size: 23px !important;
+      }
+  }
+
+  .eight{
+      h2{
+          font-size: 23px !important;
+      }
+  }
+
+}

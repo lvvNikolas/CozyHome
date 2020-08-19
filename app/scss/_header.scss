@@ -1,0 +1,300 @@
+.header {
+    .navbar-brand img {
+        // font-size: 20px !important;
+        width: 100px;
+    }
+    nav {
+        background-color: $bgc-color !important;
+        li a {
+            font-size: 20px;
+        }
+    }
+}
+
+.main-header {
+    min-height: 700px;
+    // border: 1px solid black;
+    background-color: $bgc-color;
+    .header-wrapper {
+        margin: 0 auto;
+        max-width: 1500px;
+        padding-top: 150px !important;
+        padding: 50px;
+        padding-bottom: 100px;
+        // border: 1px solid lightcoral;
+        display: flex;
+        .header-item {
+            position: relative;
+            h1 {
+                letter-spacing: 2px;
+                font-size: 60px;
+                color: #13287e;
+                font-weight: bold;
+            }
+            p {
+                font-size: 15px;
+                font-style: italic;
+            }
+            a {
+                display: block;
+                //  margin: 0 auto;
+                text-align: center;
+                text-decoration: none !important;
+                color: black;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 20px 14px;
+                background: #fff323;
+                border-radius: 30em;
+                width: 200px;
+            }
+            a:hover {
+                background: #000;
+                color: #fff;
+            }
+            .carpet-img {
+                position: absolute;
+                width: 550px;
+                top: 250px;
+                left: 200px;
+            }
+            .lamp-img {
+                //   width: 550px;
+                position: absolute;
+                left: 200px;
+                z-index: 10;
+            }
+            .window-img {
+                position: absolute;
+                //   z-index: -10;
+                top: -120px;
+                left: 230px;
+            }
+            .paiting-img {
+                position: absolute;
+                left: 570px;
+                top: -90px;
+            }
+            .couch-img {
+                position: absolute;
+                left: 400px;
+                top: 130px;
+            }
+            .woman1-img {
+                position: absolute;
+                left: 300px;
+                //   width: 100%;
+            }
+            .water-img {
+                position: absolute;
+                top: 400px
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .carpet-img {
+        position: absolute;
+        width: 450px !important;
+        top: 250px;
+        left: 200px;
+    }
+    .couch-img {
+        position: absolute;
+        width: 200px;
+        left: 400px;
+        top: 170px !important;
+    }
+    .woman1-img {
+        width: 400px;
+        position: absolute;
+        top: 150px;
+        left: 250px !important;
+        //   width: 100%;
+    }
+    .lamp-img {
+        width: 50px;
+        top: 130px;
+        position: absolute;
+        left: 200px;
+        z-index: 10;
+    }
+    .window-img {
+        position: absolute;
+        //   z-index: -10;
+        width: 200px;
+        top: -120px;
+        left: 230px;
+    }
+    .paiting-img {
+        width: 100px;
+        position: absolute;
+        left: 570px;
+        top: -90px;
+    }
+    .woman2-img {
+        width: 130px;
+        position: absolute;
+        top: 90px;
+    }
+    .water-img {
+        width: 90px;
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .window-img {
+        position: absolute;
+        //   z-index: -10;
+        width: 150px;
+        top: -30px !important;
+        left: 130px !important;
+    }
+    .paiting-img {
+        width: 100px;
+        position: absolute;
+        left: 350px !important;
+        top: -10px !important;
+    }
+    .lamp-img {
+        width: 50px;
+        top: 110px !important;
+        position: absolute;
+        left: 100px !important;
+        z-index: 10;
+        //    display: none;
+    }
+    .carpet-img {
+        position: absolute;
+        width: 300px !important;
+        // top: 200px !important;
+        left: 100px !important;
+    }
+    .couch-img {
+        position: absolute;
+        width: 170px;
+        left: 200px !important;
+        top: 180px !important;
+    }
+    .woman1-img {
+        width: 300px;
+        position: absolute;
+        top: 150px;
+        left: 190px !important;
+        //   width: 100%;
+    }
+    .woman2-img {
+        width: 100px;
+        position: absolute;
+        top: 120px;
+    }
+    .water-img {
+        width: 70px;
+        position: absolute;
+        top: 350px !important;
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .woman1-img {
+        display: none;
+    }
+    .paiting-img {
+        display: none;
+    }
+    .couch-img {
+        display: none;
+    }
+    .carpet-img {
+        display: none;
+    }
+    .lamp-img {
+        display: none;
+    }
+    .window-img {
+        position: absolute;
+        //   z-index: -10;
+        width: 200px;
+        top: -30px !important;
+        left: 100px !important;
+    }
+    h1 {
+        letter-spacing: 2px;
+        font-size: 40px !important;
+        color: #13287e;
+        font-weight: bold;
+    }
+    p {
+        font-size: 12px !important;
+        font-style: italic;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .window-img {
+        position: absolute;
+        //   z-index: -10;
+        width: 150px;
+        top: -30px !important;
+        left: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .window-img {
+        display: none;
+    }
+    .woman2-img {
+        width: 100px;
+        position: absolute;
+        top: 230px;
+        right: 50px;
+    }
+    .water-img {
+        width: 50px;
+        position: absolute;
+        top: 460px !important;
+        left: -50px;
+        //    right: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    a {
+        width: 160px !important;
+    }
+    .woman2-img {
+        width: 80px;
+        position: absolute;
+        top: 290px;
+        right: 150px;
+    }
+    .water-img {
+        width: 50px;
+        position: absolute;
+        top: 490px !important;
+        left: -170px;
+        //    right: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 351px) {
+    .woman2-img {
+        width: 60px;
+        position: absolute;
+        top: 290px;
+        right: 50px;
+    }
+    .water-img {
+        width: 50px;
+        position: absolute;
+        top: 440px !important;
+        left: -170px;
+        //    right: 50px !important;
+    }
+}
